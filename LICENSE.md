@@ -1,3 +1,5 @@
+Copyright (c) 2020 Paul Murff
+
 MIT License
 
 Copyright (c) 2020 Creative Tim
