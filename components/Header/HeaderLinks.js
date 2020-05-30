@@ -26,11 +26,22 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
+      
+      <ListItem className={classes.listItem}>
+        <Button
+          href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmk-navbar"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <Icon className={classes.icons}>unarchive</Icon> My Pizza Tracks 
+        </Button>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           navDropdown
-          buttonText="Components"
+          buttonText="Pizza Tracker"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -52,22 +63,12 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmk-navbar"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <Icon className={classes.icons}>unarchive</Icon> Upgrade to PRO
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
           href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> Rankings
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -95,7 +96,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
-          title="Follow us on facebook"
+          title="Share on facebook"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >

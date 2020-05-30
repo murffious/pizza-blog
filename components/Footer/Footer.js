@@ -37,7 +37,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                MorfTech 
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -77,9 +77,9 @@ export default function Footer(props) {
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            MorfTech 
           </a>{" "}
-          for a better web.
+          for a funner web.
         </div>
       </div>
     </footer>

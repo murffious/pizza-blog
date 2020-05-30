@@ -5,10 +5,10 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 MorfTech  (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by MorfTech 
 
 =========================================================
 
@@ -51,10 +51,10 @@ export default class MyApp extends App {
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 MorfTech  (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by MorfTech 
 
 =========================================================
 
@@ -78,7 +78,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>PizzaTracks</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
